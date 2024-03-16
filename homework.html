@@ -36,13 +36,16 @@
             border-radius:40px;
             margin-top:20px;
             font-size:16px;
+            transition: all 200ms ease;
+            box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
 
         }
         button:hover{
             background:white;
             color:#1A64D6;
+            border:1px solid #1A64D6;
         }
-        .lil{
+        li{
             text-align:center;
             font-weight:bold;
             font-size:18px;
@@ -72,19 +75,21 @@
         <div class="cloud">&#127780;
         </div>
         <h1>Currently 14 in Cairo</h1>
-        <h2>23&deg;  / 11&deg; </h2>
+        <h2>23&deg;  / <strong>11 &deg;</strong> </h2>
         <br/>
     <ul>
-        <li class="lil">&#127783; Tomorrow</li>
-        <li>10&deg;  / 22&deg; </li>
-    </ul>
-    <ul>
-        <li class="lil">&#217781; Saturday</li>
-        <li>15&deg;  / 17&deg; </li>
-    </ul>
-    <ul>
-        <li class="lil">&#9728; Sunday</li>
-        <li>25&deg;  / 28&deg; </li>
+        <li>
+            <h3>&#127783; Tomorrow</h3>
+            <p>10&deg;  / 22&deg; </p>
+        </li>
+        <li>
+            <h3>&#217781; Saturday</h3>
+            <p>15&deg;  / 17&deg;</p>
+        </li>
+        <li>
+        <h3>&#9728; Sunday</h3>
+        <p>25&deg;  / 28&deg; </p>
+        </li>
     </ul>
     <button>Change city</button>
     <p>coded by toukka khaled</p>
