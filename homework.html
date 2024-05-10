@@ -3,74 +3,62 @@
 <head>
 
 <title> shecodes </title>
-<meta charset="utf-8"/>
-<meta http-equiv="x-ua-compatible" content="ie=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
         body{
-            font-family:Helvetica, Arial, sans-serif;
+            font-family:sans-serif;
             text-align:center;
             display:block;
         }
         h1{
             color:#1A64D6;
-            margin:0;
+            margin:auto;
             text-align:center;
             font-weight:bold;
             display:black;
-            font-size:35px;
+            font-size:40px;
             
 
         }
         h2{
             font-size:30px;
-            line-height: 48px;
-            font-weight: 400;
         }
         ul{
-            padding: 0;
+            list-style:none;
 
         }
         button{
-            display:block;
             background:#1A64D6;
             color:white;
             padding:20px 25px;
             border:1px solid #1A64D6;
             border-radius:40px;
-            margin:20px auto ;
+            margin-top:20px;
             font-size:16px;
-            line-height: 22px;
-            transition: all 200ms ease;
-            box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
 
         }
         button:hover{
             background:white;
             color:#1A64D6;
-            border:1px solid #1A64D6;
-            border-radius: ;
-            
         }
-        li{
-            list-style: none;
+        .lil{
             text-align:center;
-            padding:10px 0;
-            margin:0 auto;
-            transition: all 200ms ease-in-out;
-            max-width: 400px;
+            font-weight:bold;
+            font-size:18px;
+            padding:30px;
+            margin:auto;
+            display:block;
             
         }
-        li:hover{
-            
+        ul:hover{
+            border:1px solid #FFFBEF;
+            border-radius:30px;
             background:#FFFBEF;
-            
+            margin:0 70px 0 70px;
         }
         p{
-            font-size: 18px;
-            opacity:0.7;
-            text-align: center;
-            font-family: monospace;
+
         }
         .cloud{
             display:block;
@@ -84,21 +72,19 @@
         <div class="cloud">&#127780;
         </div>
         <h1>Currently 14 in Cairo</h1>
-        <h2>23&deg;  / <strong>11 &deg;</strong> </h2>
+        <h2>23&deg;  / 11&deg; </h2>
         <br/>
     <ul>
-        <li>
-            <h3>&#127783; Tomorrow</h3>
-            <p>10&deg;  / 22&deg; </p>
-        </li>
-        <li>
-            <h3>&#217781; Saturday</h3>
-            <p>15&deg;  / 17&deg;</p>
-        </li>
-        <li>
-        <h3>&#9728; Sunday</h3>
-        <p>25&deg;  / 28&deg; </p>
-        </li>
+        <li class="lil">&#127783; Tomorrow</li>
+        <li>10&deg;  / 22&deg; </li>
+    </ul>
+    <ul>
+        <li class="lil">&#217781; Saturday</li>
+        <li>15&deg;  / 17&deg; </li>
+    </ul>
+    <ul>
+        <li class="lil">&#9728; Sunday</li>
+        <li>25&deg;  / 28&deg; </li>
     </ul>
     <button>Change city</button>
     <p>coded by toukka khaled</p>
