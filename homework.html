@@ -87,6 +87,25 @@
         <li>25&deg;  / 28&deg; </li>
     </ul>
     <button>Change city</button>
+
+	<script>
+		
+        function changeCity() {
+        let city = prompt("what city do you live in?");
+        let degree = prompt("what temperature is it?"); 
+        let heading = document.querySelector("h1");
+        if (degree < 0){
+            heading.innerHTML = 
+            "☹<br /> Currently " + degree + " C in " + city;
+        }
+        else {
+            heading.innerHTML = 
+            "☻<br />Currently " + degree + "C in " + city;
+        }
+    }
+        let change = document.querySelector("button");
+        change.addEventListener("click", changeCity);
+	</script>
     <p>coded by toukka khaled</p>
     </body>
 </html>
